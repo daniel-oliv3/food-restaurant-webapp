@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { SpecialityComponent } from './speciality/speciality.component';
 import { PopularComponent } from './popular/popular.component';
+import { DegrausComponent } from './degraus/degraus.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PopularComponent } from './popular/popular.component';
     HeaderComponent,
     HomeComponent,
     SpecialityComponent,
-    PopularComponent
+    PopularComponent,
+    DegrausComponent
   ],
   imports: [
     BrowserModule,
