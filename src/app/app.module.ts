@@ -10,6 +10,7 @@ import { PopularComponent } from './popular/popular.component';
 import { DegrausComponent } from './degraus/degraus.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ReviewsComponent } from './reviews/reviews.component';
+import { OrdersComponent } from './orders/orders.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ReviewsComponent } from './reviews/reviews.component';
     PopularComponent,
     DegrausComponent,
     GalleryComponent,
-    ReviewsComponent
+    ReviewsComponent,
+    OrdersComponent
   ],
   imports: [
     BrowserModule,
