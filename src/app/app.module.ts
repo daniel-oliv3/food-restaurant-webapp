@@ -11,6 +11,7 @@ import { DegrausComponent } from './degraus/degraus.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ReviewsComponent } from './reviews/reviews.component';
 import { OrdersComponent } from './orders/orders.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { OrdersComponent } from './orders/orders.component';
     DegrausComponent,
     GalleryComponent,
     ReviewsComponent,
-    OrdersComponent
+    OrdersComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
