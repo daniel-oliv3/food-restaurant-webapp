@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { SpecialityComponent } from './speciality/speciality.component';
 import { PopularComponent } from './popular/popular.component';
 import { DegrausComponent } from './degraus/degraus.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { DegrausComponent } from './degraus/degraus.component';
     HomeComponent,
     SpecialityComponent,
     PopularComponent,
-    DegrausComponent
+    DegrausComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,
