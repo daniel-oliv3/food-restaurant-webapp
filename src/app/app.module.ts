@@ -9,6 +9,7 @@ import { SpecialityComponent } from './speciality/speciality.component';
 import { PopularComponent } from './popular/popular.component';
 import { DegrausComponent } from './degraus/degraus.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { ReviewsComponent } from './reviews/reviews.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { GalleryComponent } from './gallery/gallery.component';
     SpecialityComponent,
     PopularComponent,
     DegrausComponent,
-    GalleryComponent
+    GalleryComponent,
+    ReviewsComponent
   ],
   imports: [
     BrowserModule,
